@@ -1,0 +1,14 @@
+# Data from UofChicago CsI-Na QF measurement presented in arXiv:1708.01294 [nucl-ex]
+# Released as part of COHERENT Collaboration data release for this publication
+# To convert nuclear-recoil energy X to electron-equivalent energy, multiply X by the quenching factor value here
+# Note that the horizontal and vertical errors are correlated, and this is not accounted for here
+# Column definitions
+# Mean nuclear recoil energy, +/- Error on recoil energy, Quenching factor, +/- error on QF
+# keVnr, keVnr, no units, no units
+2.87, 0.56, 0.0521, 0.017193
+4.04, 0.72, 0.0638, 0.007656
+4.8, 0.8, 0.0675, 0.007425
+6.18, 0.9, 0.069, 0.00621
+9.07, 1.21, 0.0738, 0.005166
+12.61, 1.43, 0.0714, 0.006426
+16.37, 1.81, 0.0716, 0.006444
