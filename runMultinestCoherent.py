@@ -159,8 +159,7 @@ def RunPlotting():
     plt.title(r"CENNS-10 LAr, $t<5.0$ $\mu$s", loc="right", fontsize=15)
     plt.xlabel(r"$E_r$ [keV]", fontsize=20)
     plt.ylabel(r"Events", fontsize=20)
-    #plt.xlim((kevnr_edges[0], kevnr_edges[-1]))
-    #plt.ylim((0,250))
+
     plt.legend(fontsize=15)
     plt.xticks(fontsize=15)
     plt.yticks(fontsize=15)
@@ -206,7 +205,7 @@ if __name__ == '__main__':
 
 
 
-    # Run the likelihood scan
+    # Run MultiNest.
     pymultinest.run(combined_likelihood, prior, 11,
                     outputfiles_basename="multinest/coherent/coherent",
                     resume=False, verbose=True, n_live_points=2000, evidence_tolerance=0.5,
