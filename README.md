@@ -5,10 +5,10 @@ Based on "*A global analysis strategy to resolve neutrino NSI degeneracies with 
 Here I will provide a simple, canned example as well as a simplified fragment of the real analysis done in 2002.03066. 
 
 ### File descriptions
-* copula.py
-* runCopulaExample.py
+* example.py : An canned example with pseudodata to explore the prior-flow method with copulas.
 * runMultinestCoherent.py
 * runMultinestDUNE.py
+* copula.py
 * `/multinest/` : Storage of multinest output data
 * `/pyCEvNS/` : A working version of ikaros' pyCEvNS modules for neutrino scattering, oscillations, and NSI physics
 * `/plots/` : Store your plots here
